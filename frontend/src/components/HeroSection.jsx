@@ -17,10 +17,10 @@ const HeroSection = () => {
   return (
     <div className='text-center'>
             <div className='flex flex-col gap-5 my-10'>
-                <span className=' mx-auto px-4 py-2 rounded-full bg-gray-100 text-[#ff9900] font-medium'>No. 1 Job Hunt Website</span>
+                {/* <span className=' mx-auto px-4 py-2 rounded-full bg-gray-100 text-[#ff9900] font-medium'>No. 1 Website for Jobs</span> */}
                 <h1 className='text-5xl font-bold'>Search, Apply & <br /> Get Your <span className='text-[#00ace6]'>Dream Jobs</span></h1>
-                <h3 className='text-3xl font-semibold text-[#da9438]'>Unlock Your Next Career Opportunity Today!</h3>
-                <p className='font-medium'>Start your journey towards a brighter future with top job listings tailored just for you.</p>
+                <h3 className='mx-auto px-4 py-2 rounded-full bg-gray-100 font-semibold text-[#da9438]'>Unlock Your Next Career Opportunity Today!</h3>
+                <p className='font-medium text-gray-800'>Start your journey towards a brighter future with top job listings tailored just for you.</p>
                 <div className='flex w-[40%] shadow-lg border border-gray-200 pl-3 rounded-full items-center gap-4 mx-auto'>
                     <input
                         type="text"
